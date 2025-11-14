@@ -97,7 +97,6 @@ public class RandomCubesGenerator : MonoBehaviour
             gridPoints[n] = tmp;
         }
 
-        // jeśli mamy wystarczająco dużo unikalnych punktów -> weź pierwsze numberOfCubes
         int take = Math.Min(numberOfCubes, gridPoints.Count);
         for (int i = 0; i < take; i++)
         {
@@ -147,3 +146,4 @@ public class RandomCubesGenerator : MonoBehaviour
     {
     }
 }
+
